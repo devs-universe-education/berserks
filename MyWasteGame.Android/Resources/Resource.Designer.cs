@@ -9678,4 +9678,3 @@ namespace MyWasteGame.Android
 	}
 }
 #pragma warning restore 1591
-

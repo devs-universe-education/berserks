@@ -1,3 +1,4 @@
+using Acr.UserDialogs;
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
@@ -14,8 +15,9 @@ namespace MyWasteGame.Android
 
             base.OnCreate(bundle);
 
-            global::Xamarin.Forms.Forms.Init(this, bundle);
-            LoadApplication(new App());
+            Xamarin.Forms.Forms.Init(this, bundle);
+			UserDialogs.Init(this);
+			LoadApplication(new App());
         }
     }
 }

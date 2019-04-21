@@ -21,14 +21,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="UI\Pages\Main\MainPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
+    <Compile Update="UI\Pages\GameIntroPage.xaml.cs">
+      <DependentUpon>GameIntroPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="UI\Pages\StartPage.xaml.cs">
+      <DependentUpon>StartPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="UI\Pages\Main\MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
+    <EmbeddedResource Update="UI\Pages\GameIntroPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="UI\Pages\StartPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
