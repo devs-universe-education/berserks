@@ -1,4 +1,5 @@
 using MyWasteGame.DAL.DataServices;
+using MyWasteGame.PlatformServices;
 using MyWasteGame.UI;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,7 +13,7 @@ namespace MyWasteGame
 		{
 			DialogService.Init(this);
 			NavigationService.Init(this);
-			DataServices.Init(true, "local.db");
+			DataServices.Init(true, DependencyService.Get<IPlatformService>().GetFilePath("local.db"));
 		}
 
 		protected override void OnStart ()

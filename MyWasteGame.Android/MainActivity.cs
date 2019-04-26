@@ -2,6 +2,7 @@ using Acr.UserDialogs;
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
+using Plugin.CurrentActivity;
 
 namespace MyWasteGame.Android
 {
@@ -14,6 +15,7 @@ namespace MyWasteGame.Android
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
+	        CrossCurrentActivity.Current.Init(this, bundle);
 
             Xamarin.Forms.Forms.Init(this, bundle);
 			UserDialogs.Init(this);
