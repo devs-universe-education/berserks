@@ -5,6 +5,9 @@ namespace MyWasteGame.DAL {
 		public readonly T Data;
 		public bool IsValid => Status == RequestStatus.Ok && Data != null;
 
+		public RequestResult(T data): this(data, RequestStatus.Ok) {
+		}
+
 		public RequestResult(T data, RequestStatus status, string message = null) {
 			Data = data;
 			Status = status;

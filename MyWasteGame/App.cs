@@ -12,7 +12,7 @@ namespace MyWasteGame
 		{
 			DialogService.Init(this);
 			NavigationService.Init(this);
-			DataServices.Init(true);
+			DataServices.Init(true, "local.db");
 		}
 
 		protected override void OnStart ()

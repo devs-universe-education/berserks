@@ -5,12 +5,12 @@ namespace MyWasteGame.DAL.DataServices
 	public static class DataServices {
 		public static IMainDataService Main { get; private set; }
 
-		public static void Init(bool isMock) {
+		public static void Init(bool isMock, string filePath) {
 			if (isMock) {
-				Main = new Mock.MockMainDataService();
+				Main = new Mock.MainDataService();
 			}
 			else {
-				throw new NotImplementedException("Online Data Services not implemented");
+				Main = new Database.MainDataService(filePath);
 			}
 		}
 	}

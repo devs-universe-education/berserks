@@ -1,0 +1,13 @@
+{
+	"values": [
+		{
+			"Description" : "Text 1 from JSON file",
+			"ImageUrl" :  "https://www.ryersoncatholic.ca/wp-content/uploads/2018/01/universe.jpg" 
+		},
+		{
+			"Description" : "Text 2 from JSON file",
+			"ImageUrl" :  "https://www.ryersoncatholic.ca/wp-content/uploads/2018/01/universe.jpg" 
+		}
+	] 
+}
+

@@ -6,17 +6,16 @@
 
   <ItemGroup>
     <None Remove="Resources\Mock\Main\SampleDataObject.json" />
+    <None Remove="Resources\Mock\Main\SampleDataObjects.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Resources\Mock\Main\SampleDataObjects.json" />
     <EmbeddedResource Include="Resources\Mock\Main\SampleDataObject.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataServices\Rest\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="LiteDB" Version="4.1.4" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
   </ItemGroup>
 
