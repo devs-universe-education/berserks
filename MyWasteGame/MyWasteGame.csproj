@@ -21,20 +21,26 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="UI\Pages\GameIntroPage.xaml.cs">
-      <DependentUpon>GameIntroPage.xaml</DependentUpon>
+    <Compile Update="UI\Pages\Level.xaml.cs">
+      <DependentUpon>Level.xaml</DependentUpon>
     </Compile>
-    <Compile Update="UI\Pages\StartPage.xaml.cs">
-      <DependentUpon>StartPage.xaml</DependentUpon>
+    <Compile Update="UI\Pages\CommonReference.xaml.cs">
+      <DependentUpon>CommonReference.xaml</DependentUpon>
     </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="UI\Pages\GameIntroPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="UI\Pages\StartPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
+    <Compile Update="UI\Pages\GameIntro.xaml.cs">
+      <DependentUpon>GameIntro.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="UI\Pages\SpecialReference.xaml.cs">
+      <DependentUpon>SpecialReference.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="UI\Pages\Mistake.xaml.cs">
+      <DependentUpon>Mistake.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="UI\Pages\Start.xaml.cs">
+      <DependentUpon>Start.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="UI\Pages\LevelIntro.xaml.cs">
+      <DependentUpon>LevelIntro.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

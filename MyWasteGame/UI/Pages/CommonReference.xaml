@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pages:BasePage
+	xmlns:pages="clr-namespace:MyWasteGame.UI.Pages"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyWasteGame.UI.Pages.CommonReference">
+    <ContentPage.Content>
+		<StackLayout Padding ="25,25,25,50" HorizontalOptions="CenterAndExpand">
+			<Label FontSize ="Large" Text="Справка" HorizontalOptions="Center"/>
+			<Button Text="Ядовитые"/>
+			<Button Text="Пластик"/>
+			<Button Text="Мокрые"/>
+			<Button Text="Стекло"/>
+			<Button Text="Одежда, бытовая техника"/>
+
+			<Button Text="Вернуться назад" VerticalOptions="EndAndExpand"/>
+		</StackLayout>
+	</ContentPage.Content>
+</pages:BasePage>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pages:BasePage
+	xmlns:pages="clr-namespace:MyWasteGame.UI.Pages"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyWasteGame.UI.Pages.GameIntroPage">
+    <ContentPage.Content>
+        <StackLayout Padding ="25,25,25,50" HorizontalOptions="Center">
+            <Label FontSize ="Large" Text="Давай начнем! В первом уровне тебе нужно будет выбрать, относится данный продукт к ядовитым отходам или нет"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+			<Button Text="Далее"/>
+		</StackLayout>
+    </ContentPage.Content>
+</pages:BasePage>

@@ -14,7 +14,9 @@ namespace MyWasteGame
 			DialogService.Init(this);
 			NavigationService.Init(this);
 			DataServices.Init(true, DependencyService.Get<IPlatformService>().GetFilePath("local.db"));
+
 		}
+
 
 		protected override void OnStart ()
 		{
