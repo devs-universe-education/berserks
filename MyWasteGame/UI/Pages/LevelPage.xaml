@@ -3,7 +3,7 @@
 	xmlns:pages="clr-namespace:MyWasteGame.UI.Pages"
 	xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyWasteGame.UI.Pages.GameIntroPage">
+             x:Class="MyWasteGame.UI.Pages.LevelPage">
     <ContentPage.Content>
 		<StackLayout Padding="25,25,25,50">
 			<Label FontSize ="Large" Text="Level"

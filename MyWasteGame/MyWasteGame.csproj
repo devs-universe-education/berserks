@@ -21,26 +21,26 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="UI\Pages\Level.xaml.cs">
-      <DependentUpon>Level.xaml</DependentUpon>
+    <Compile Update="UI\Pages\LevelPage.xaml.cs">
+      <DependentUpon>LevelPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="UI\Pages\CommonReference.xaml.cs">
-      <DependentUpon>CommonReference.xaml</DependentUpon>
+    <Compile Update="UI\Pages\CommonReferencePage.xaml.cs">
+      <DependentUpon>CommonReferencePage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="UI\Pages\GameIntro.xaml.cs">
-      <DependentUpon>GameIntro.xaml</DependentUpon>
+    <Compile Update="UI\Pages\GameIntroPage.xaml.cs">
+      <DependentUpon>GameIntroPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="UI\Pages\SpecialReference.xaml.cs">
-      <DependentUpon>SpecialReference.xaml</DependentUpon>
+    <Compile Update="UI\Pages\SpecialReferencePage.xaml.cs">
+      <DependentUpon>SpecialReferencePage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="UI\Pages\Mistake.xaml.cs">
-      <DependentUpon>Mistake.xaml</DependentUpon>
+    <Compile Update="UI\Pages\MistakePage.xaml.cs">
+      <DependentUpon>MistakePage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="UI\Pages\Start.xaml.cs">
-      <DependentUpon>Start.xaml</DependentUpon>
+    <Compile Update="UI\Pages\StartPage.xaml.cs">
+      <DependentUpon>StartPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="UI\Pages\LevelIntro.xaml.cs">
-      <DependentUpon>LevelIntro.xaml</DependentUpon>
+    <Compile Update="UI\Pages\LevelIntroPage.xaml.cs">
+      <DependentUpon>LevelIntroPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

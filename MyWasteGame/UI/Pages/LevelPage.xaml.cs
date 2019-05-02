@@ -1,6 +1,6 @@
 namespace MyWasteGame.UI.Pages {
-	public partial class Mistake : BasePage {
-		public Mistake() {
+	public partial class LevelPage: BasePage {
+		public LevelPage() {
 			InitializeComponent();
 		}
 	}
