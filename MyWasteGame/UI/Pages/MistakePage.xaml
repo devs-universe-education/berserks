@@ -9,7 +9,7 @@
             <Label Text="Упс! Ты ошибся. Попробуй снова"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-			<Button Text="Вернуться к игре" Clicked="MistakeStepBackClicked"/>
+			<Button Text="Вернуться к игре" />
 		</StackLayout>
     </ContentPage.Content>
 </pages:BasePage>

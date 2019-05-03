@@ -7,9 +7,11 @@
     <ContentPage.Content>
         <StackLayout Padding="25,25,25,25" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
 			<Label Text="Выбери уровень" HorizontalOptions="Center" FontSize="Large"/>
-			<Button Text="1 (Перерабатываемое)" Clicked="Level1_Clicked" HorizontalOptions="Center"/>
-			<Button Text="2 (+ неперерабатываемое)" Clicked="Level2_Clicked" HorizontalOptions="Center"/>
-			<Button Text="3 (+ пластик)" Clicked="Level3_Clicked" HorizontalOptions="Center"/>
+			<Button Text="1 Ядовитые" Clicked="Level1_Clicked" HorizontalOptions="Center"/>
+			<Button Text="2 Пластик" HorizontalOptions="Center"/>
+			<Button Text="3 Мокрые" HorizontalOptions="Center"/>
+			<Button Text="4 Стекло" HorizontalOptions="Center"/>
+			<Button Text="5 Отходы" HorizontalOptions="Center"/>
 		</StackLayout>
     </ContentPage.Content>
 </pages:BasePage>
