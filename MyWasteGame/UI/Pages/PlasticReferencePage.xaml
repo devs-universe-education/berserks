@@ -3,10 +3,10 @@
 	xmlns:pages="clr-namespace:MyWasteGame.UI.Pages"
 	xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyWasteGame.UI.Pages.SpecialReferencePage">
+             x:Class="MyWasteGame.UI.Pages.PlasticReferencePage">
     <ContentPage.Content>
-        <StackLayout Padding="20,20,20,20">
-            <Label Text="Ядовитые" 
+        <StackLayout Padding="25,25,25,25">
+            <Label Text="Пластик" 
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

@@ -9,7 +9,7 @@
 			<Label FontSize="Large" Text="Привет, дорогой друг! Меня зовут Мистер Бин. Я рад, что ты прибыл так скоро. Надеюсь, ты поможешь мне"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-			<Button Text="Далее"/>
+			<Button Text="Далее" Clicked="GoToStartClicked"/>
 		</StackLayout>
 	</ContentPage.Content>
 </pages:BasePage>
