@@ -24,17 +24,14 @@
     <Compile Update="UI\Pages\LevelPage.xaml.cs">
       <DependentUpon>LevelPage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="UI\Pages\CommonReferencePage.xaml.cs">
+      <DependentUpon>CommonReferencePage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="UI\Pages\GameIntroPage.xaml.cs">
       <DependentUpon>GameIntroPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="UI\Pages\PlasticReferencePage.xaml.cs">
-      <DependentUpon>PlasticReferencePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="UI\Pages\UnrecyclableReferencePage.xaml.cs">
-      <DependentUpon>UnrecyclableReferencePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="UI\Pages\RecyclableReferencePage.xaml.cs">
-      <DependentUpon>RecyclableReferencePage.xaml</DependentUpon>
+    <Compile Update="UI\Pages\SpecialReferencePage.xaml.cs">
+      <DependentUpon>SpecialReferencePage.xaml</DependentUpon>
     </Compile>
     <Compile Update="UI\Pages\MistakePage.xaml.cs">
       <DependentUpon>MistakePage.xaml</DependentUpon>
