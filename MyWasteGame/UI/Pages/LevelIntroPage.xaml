@@ -6,10 +6,11 @@
              x:Class="MyWasteGame.UI.Pages.LevelIntroPage">
     <ContentPage.Content>
         <StackLayout Padding ="25,25,25,50" HorizontalOptions="Center">
-            <Label FontSize ="Large" Text="Давай начнем! В первом уровне тебе нужно будет выбрать, относится данный продукт к ядовитым отходам или нет"
+            <Label FontSize ="Large" Text="Давай начнем! В этом уровне тебе нужно будет отсортировать вторсырье"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-			<Button Text="Далее"/>
+			<Button Text="Далее" Clicked="GoToLevelClicked"/>
+			<Button Text="Посмотреть справку" Clicked="ViewReferenceClicked"/>
 		</StackLayout>
     </ContentPage.Content>
 </pages:BasePage>

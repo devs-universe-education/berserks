@@ -3,13 +3,12 @@
 	xmlns:pages="clr-namespace:MyWasteGame.UI.Pages"
 	xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyWasteGame.UI.Pages.MistakePage">
+             x:Class="MyWasteGame.UI.Pages.UnrecyclableReferencePage">
     <ContentPage.Content>
-        <StackLayout Padding="25,25,25,50">
-            <Label Text="Упс! Ты ошибся. Попробуй снова"
-                VerticalOptions="CenterAndExpand" 
+        <StackLayout Padding="25,25,25,25">
+            <Label Text="Неперарабатывываемое" 
+                VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-			<Button Text="Вернуться к игре" Clicked="MistakeStepBackClicked"/>
-		</StackLayout>
+        </StackLayout>
     </ContentPage.Content>
 </pages:BasePage>
