@@ -5,9 +5,9 @@ using MyWasteGame.DAL.DataServices;
 
 namespace MyWasteGame.BL.ViewModels
 {
-    public class StartViewModel : BaseViewModel
+    public class ReferenсeViewModel : BaseViewModel
     {
-		public ICommand NavigateCommand => GetNavigateToCommand(AppPages.LevelIntro);
+		public ICommand NavigateCommand => GetNavigateToCommand(AppPages.Start);
 		//public ICommand GoToGameIntroCommand => GetNavigateToCommand(AppPages.GameIntro);
     }
 }

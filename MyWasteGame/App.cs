@@ -20,7 +20,7 @@ namespace MyWasteGame
 
 		protected override void OnStart ()
 		{
-			NavigationService.Instance.SetMainPage(AppPages.Start);
+			NavigationService.Instance.SetMainPage(AppPages.GameIntro);
 		}
 	}
 }

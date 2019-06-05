@@ -8,7 +8,7 @@ namespace MyWasteGame.UI.Pages {
 			await Navigation.PushAsync(new LevelPage());
 		}
 		public async void ViewReferenceClicked(object sender, EventArgs e) {
-			await Navigation.PushAsync(new RecyclableReferencePage());
+			await Navigation.PushAsync(new ReferencePage());
 		}
 		
 	}

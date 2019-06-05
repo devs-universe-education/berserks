@@ -6,9 +6,7 @@ namespace MyWasteGame
 		Mistake,
 		GameIntro,
 		LevelIntro,
-		PlasticReference,
-		RecyclableRefence,
-		UnrecyclableRefence,
+		Reference,
 	}
 
 	public enum NavigationMode {
