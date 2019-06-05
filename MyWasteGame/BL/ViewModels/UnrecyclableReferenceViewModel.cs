@@ -6,7 +6,7 @@ using System.Text;
 using Xamarin.Forms;
 
 namespace MyWasteGame.BL.ViewModels {
-	public class UnrecyclableReference : ContentView {
+	public class UnrecyclableReference : BaseViewModel {
 		
 	}
 }

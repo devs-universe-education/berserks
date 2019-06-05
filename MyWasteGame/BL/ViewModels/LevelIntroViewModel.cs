@@ -6,7 +6,7 @@ using System.Text;
 using Xamarin.Forms;
 
 namespace MyWasteGame.BL.ViewModels {
-	public class LevelIntroViewModel : ContentView {
+	public class LevelIntroViewModel : BaseViewModel {// use correct base
 		
 	}
 }

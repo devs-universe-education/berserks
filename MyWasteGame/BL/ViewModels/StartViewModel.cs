@@ -7,7 +7,8 @@ namespace MyWasteGame.BL.ViewModels
 {
     public class StartViewModel : BaseViewModel
     {
-	    public ICommand GoToGameIntroCommand => GetNavigateToCommand(AppPages.GameIntro);
+		public ICommand NavigateCommand => GetNavigateToCommand(AppPages.LevelIntro);
+		public ICommand GoToGameIntroCommand => GetNavigateToCommand(AppPages.GameIntro);
     }
 }
 

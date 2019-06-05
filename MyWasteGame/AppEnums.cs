@@ -4,10 +4,11 @@ namespace MyWasteGame
 		Start,
 		Level,
 		Mistake,
-		ComRefer,
-		SpecRefer,
 		GameIntro,
-		LevelIntro
+		LevelIntro,
+		PlasticReference,
+		RecyclableRefence,
+		UnrecyclableRefence,
 	}
 
 	public enum NavigationMode {
