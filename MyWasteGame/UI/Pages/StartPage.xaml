@@ -7,9 +7,9 @@
     <ContentPage.Content>
         <StackLayout Padding="25,25,25,25" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
 			<Label Text="Выбери уровень" HorizontalOptions="Center" FontSize="Large"/>
-			<Button Text="1 (Перерабатываемое)" Command="{Binding NavigateCommand}" HorizontalOptions="Center"/>
-			<Button Text="2 (+ неперерабатываемое)" Command="{Binding NavigateCommand}" HorizontalOptions="Center"/>
-			<Button Text="3 (+ пластик)" Command="{Binding NavigateCommand}" HorizontalOptions="Center"/>
+			<Button Text="Перерабатываемое" Clicked="FirstLevelClicked" HorizontalOptions="Center"/>
+			<Button Text="Неперерабатываемое" Clicked="SecondLevelClicked" HorizontalOptions="Center"/>
+			<Button Text="Пластик" Clicked="ThirdLevelClicked" HorizontalOptions="Center"/>
 		</StackLayout>
     </ContentPage.Content>
 </pages:BasePage>

@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace MyWasteGame.BL.ViewModels {
 	public class  MistakeViewModel: BaseViewModel{
-		public ICommand NavigateCommand => GetNavigateToCommand(AppPages.Level);
+		public ICommand NavigateCommand => GetNavigateToCommand(AppPages.FirstLevel);
 
 	}
 }

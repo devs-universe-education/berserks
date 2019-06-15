@@ -3,12 +3,14 @@
 	xmlns:pages="clr-namespace:MyWasteGame.UI.Pages"
 	xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyWasteGame.UI.Pages.LevelPage">
+             x:Class="MyWasteGame.UI.Pages.SuccessPage">
     <ContentPage.Content>
 		<StackLayout Padding="25,25,25,50">
-			<Label FontSize ="Large" Text="Level"
+			<Label Text="Поздравляю! Ты справился"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"/>
+                HorizontalOptions="CenterAndExpand"
+				FontSize="Large"/>
+			<Button Text="Далее" Clicked="NavigateClicked"/>
 		</StackLayout>
 	</ContentPage.Content>
 </pages:BasePage>

@@ -3,13 +3,33 @@
 	xmlns:pages="clr-namespace:MyWasteGame.UI.Pages"
 	xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyWasteGame.UI.Pages.MistakePage">
-    <ContentPage.Content>
-        <StackLayout Padding="25,25,25,50">
-            <Label Text="Справка"
+             x:Class="MyWasteGame.UI.Pages.ReferencePage">
+	<ContentPage.Content>
+
+		<StackLayout Padding="20,5,5,50">
+
+			<Label Text="Справка"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-			<Button Text="Вернуться к игре" Command="{Binding NavigateCommand}"/>
+                HorizontalOptions="CenterAndExpand"
+				FontSize="Large"/>
+
+			<Label Text="Перерабатываемое: Яблоки, ткань, древесина "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+				FontSize="Large"/>
+
+			<Label Text="Неперерабатываемое: Лампочки, батарейки, градусники"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+				FontSize="Large"/>
+
+			<Label Text="Пластик: Пластиковые пакеты, пластиковые упаковки, пластиковые игрушки"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+				FontSize="Large"/>
+
+			<Button Text="Перейти к игре" Clicked="ReferenceStepBackClicked"/>
 		</StackLayout>
-    </ContentPage.Content>
+
+	</ContentPage.Content>
 </pages:BasePage>

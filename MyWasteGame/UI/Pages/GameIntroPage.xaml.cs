@@ -5,7 +5,7 @@ namespace MyWasteGame.UI.Pages {
 			InitializeComponent();
 		}
 		public async void GoToStartClicked(object sender, EventArgs e) {
-			await Navigation.PushAsync(new LevelPage());
+			await Navigation.PushAsync(new	StartPage());
 		}
 	}
 }

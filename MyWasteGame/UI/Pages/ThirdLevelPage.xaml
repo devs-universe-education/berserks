@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pages:BasePage
+	xmlns:pages="clr-namespace:MyWasteGame.UI.Pages"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyWasteGame.UI.Pages.ThirdLevelPage">
+    <ContentPage.Content>
+		<StackLayout Padding="25,25,25,50">
+			<Label FontSize ="Large"
+				Text="Финальная битва"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+				TextColor="AliceBlue"/>
+			
+			<Label Text="Выбери пластик "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+				FontSize="Large"/>
+
+			<ImageButton 
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+				WidthRequest="150"
+				HeightRequest="150"
+				Source="D4mrHBXgRg.jpg"
+				Clicked="OnFirstImageButtonClicked"/>
+
+			<ImageButton 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+				WidthRequest="150"
+				HeightRequest="150"
+				Source="hhsmltgTh5U.jpg"
+				Clicked="OnSecondImageButtonClicked"/>
+			
+			<ImageButton 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+				WidthRequest="150"
+				HeightRequest="150"
+				Source="wuYiCRDFSU.jpg"
+				Clicked="OnThirdImageButtonClicked"/>
+		</StackLayout>
+	</ContentPage.Content>
+</pages:BasePage>

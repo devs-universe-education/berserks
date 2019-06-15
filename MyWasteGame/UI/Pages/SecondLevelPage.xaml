@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pages:BasePage
+	xmlns:pages="clr-namespace:MyWasteGame.UI.Pages"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyWasteGame.UI.Pages.SecondLevelPage">
+    <ContentPage.Content>
+		<StackLayout Padding="25,25,25,50">
+			<Label FontSize ="Large"
+				Text="Продолжаем битву за Землю"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+				TextColor="AliceBlue"/>
+
+			<Label Text="Выбери неперерабатываемые продукты "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+				FontSize="Medium"/>
+
+			<ImageButton 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+				WidthRequest="150"
+				HeightRequest="150"
+				Source="zJhDdGYKICY.jpg"
+				Clicked="OnSecondImageButtonClicked"/>
+
+			<ImageButton 
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+				WidthRequest="150"
+				HeightRequest="150"
+				Source="XqJbN5OCUOw.jpg"
+				Clicked="OnFirstImageButtonClicked"/>
+			
+			<ImageButton 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+				WidthRequest="150"
+				HeightRequest="150"
+				Source="H6QnVUzRUM.jpg"
+				Clicked="OnThirdImageButtonClicked"/>
+		</StackLayout>
+	</ContentPage.Content>
+</pages:BasePage>

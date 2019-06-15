@@ -21,17 +21,35 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="UI\Pages\LevelPage.xaml.cs">
-      <DependentUpon>LevelPage.xaml</DependentUpon>
+    <Compile Update="UI\Pages\SecondMistakePage.xaml.cs">
+      <DependentUpon>SecondMistakePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="UI\Pages\SuccessPageFinal.xaml.cs">
+      <DependentUpon>SuccessPageFinal.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="UI\Pages\ThirdMistakePage.xaml.cs">
+      <DependentUpon>ThirdMistakePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="UI\Pages\ThirdLevelPage.xaml.cs">
+      <DependentUpon>ThirdLevelPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="UI\Pages\SecondLevelPage.xaml.cs">
+      <DependentUpon>SecondLevelPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="UI\Pages\FirstLevelPage.xaml.cs">
+      <DependentUpon>FirstLevelPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="UI\Pages\GameIntroPage.xaml.cs">
       <DependentUpon>GameIntroPage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="UI\Pages\SuccessPage.xaml.cs">
+      <DependentUpon>SuccessPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="UI\Pages\ReferenсePage.xaml.cs">
       <DependentUpon>ReferenсePage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="UI\Pages\MistakePage.xaml.cs">
-      <DependentUpon>MistakePage.xaml</DependentUpon>
+    <Compile Update="UI\Pages\FirstMistakePage.xaml.cs">
+      <DependentUpon>FirstMistakePage.xaml</DependentUpon>
     </Compile>
     <Compile Update="UI\Pages\StartPage.xaml.cs">
       <DependentUpon>StartPage.xaml</DependentUpon>
@@ -39,5 +57,11 @@
     <Compile Update="UI\Pages\LevelIntroPage.xaml.cs">
       <DependentUpon>LevelIntroPage.xaml</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="UI\Pages\SuccessPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pages:BasePage
+	xmlns:pages="clr-namespace:MyWasteGame.UI.Pages"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyWasteGame.UI.Pages.SuccessPageFinal">
+    <ContentPage.Content>
+		<StackLayout Padding="25,25,25,50">
+			<Label Text="У нас получилось спасти Землю вместе! А ты получил необходимые знания для того, чтобы защищать мир вокруг себя каждый день"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+				FontSize="Large"/>
+			<Image Source="planet06.png"/>
+			<Button Text="Начать сначала" Clicked="NavigateClicked"/>
+		</StackLayout>
+	</ContentPage.Content>
+</pages:BasePage>

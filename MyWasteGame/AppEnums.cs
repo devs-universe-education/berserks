@@ -2,11 +2,17 @@ namespace MyWasteGame
 {
 	public enum AppPages {
 		Start,
-		Level,
-		Mistake,
 		GameIntro,
 		LevelIntro,
 		Reference,
+		Success,
+		SuccessFinal,
+		FirstLevel,
+		SecondLevel,
+		ThirdLevel,
+		FirstMistakePage,
+		SecondMistakePage,
+		ThirdMistakePage
 	}
 
 	public enum NavigationMode {

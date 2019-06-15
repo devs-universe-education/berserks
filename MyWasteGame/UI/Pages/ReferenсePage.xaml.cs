@@ -2,10 +2,10 @@ using System;
 namespace MyWasteGame.UI.Pages {
 	public partial class ReferencePage : BasePage {
 		public ReferencePage() {
-			//InitializeComponent();
+			InitializeComponent();
 		}
 		public async void ReferenceStepBackClicked(object sender, EventArgs e) {
-			await Navigation.PushAsync(new LevelPage());
+			await Navigation.PushAsync(new FirstLevelPage());
 		}
 	}
 }
